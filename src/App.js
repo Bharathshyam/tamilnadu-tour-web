@@ -1,36 +1,35 @@
 
 import './App.css';
-import Chennais from './components/Chennais';
-import Descripe from './components/Descripe';
-import Header from './components/Header';
-import Hogenakkal from './components/Hogenakkal';
-import Kanyakumari from './components/Kanyakumari';
-import Kodaikanal from './components/Kodaikanal';
-import Kumbakonam from './components/Kumbakonam';
-import Madurai from './components/Madurai';
-import Ooty from './components/Ooty';
-import Rameshwaram from './components/Rameshwaram';
-import Theni from './components/Theni';
+import NaviLink from './components/NaviLink';
+import Places from './components/Places';
 import TopBar from './components/TopBar';
-import Yarcaud from './components/Yarcaud';
+import Besttimetovisit from './components/Besttimetovisit';
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Food from './components/Food';
+import Destination from './components/Destination';
+import Packages from './components/Packages';
 
 
 function App() {
   return (
     <div className="App">
-      <TopBar/>
-      <Header/>
-      <Descripe/>
-      <Chennais/>
-      <Kodaikanal/>
-      <Madurai/>
-      <Kumbakonam/>
-      <Theni/>
-      <Rameshwaram/>
-      <Ooty/>
-      <Kanyakumari/>
-      <Yarcaud/>
-      <Hogenakkal/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<TopBar/>}>
+          <Route index element={<NaviLink/>}/>
+          <Route path="places"element={<Places/>}/>
+          <Route path="besttimetovisit"element={<Besttimetovisit/>}/>
+          <Route path="packages"element={<Packages/>}/>
+          <Route path="destination"element={<Destination/>}/>
+          <Route path="food"element={<Food/>}/>
+          
+          </Route>
+        </Routes>
+      
+      </BrowserRouter>
+      
+      
+
     </div>
   );
 }

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-shadow: none;
+    text-align: justify;
 }
 
 #topbar{
@@ -9,9 +10,25 @@
     font-weight: 700;
     font-size: 20px;
     color: white;
+    padding: 1px;
+    
 }
 #top-c{
     color: white;
+}
+.hello{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+Link{
+    padding: 20px;
+    margin: 10px;
+}
+#top-c:hover{
+    background-color: rgb(178, 187, 187);
+    
+    
+    border-radius: 10px;
 }
 #dec-d{
     margin-left: 100px;
