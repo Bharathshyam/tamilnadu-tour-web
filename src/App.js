@@ -6,7 +6,7 @@ import TopBar from './components/TopBar';
 import Besttimetovisit from './components/Besttimetovisit';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Food from './components/Food';
-import Destination from './components/Destination';
+
 import Packages from './components/Packages';
 
 
@@ -20,7 +20,7 @@ function App() {
           <Route path="places"element={<Places/>}/>
           <Route path="besttimetovisit"element={<Besttimetovisit/>}/>
           <Route path="packages"element={<Packages/>}/>
-          <Route path="destination"element={<Destination/>}/>
+          
           <Route path="food"element={<Food/>}/>
           
           </Route>

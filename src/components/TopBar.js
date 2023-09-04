@@ -21,7 +21,7 @@ const TopBar = () => {
                         <Link to={'/besttimetovisit'} className='hello m-2 py-2' id='top-c' style={{textDecoration:"none"}}>Best Time To Visit</Link>
                       
                         <Link to={'/packages'} className='hello m-2 py-2' id='top-c' style={{textDecoration:"none"}}>Packages</Link>
-                        <Link to={'/destination'} className='hello m-2 py-2' id='top-c' style={{textDecoration:"none"}}>Destination</Link>
+                        
                         <Link to={'/food'} className='hello m-2 py-2' id='top-c' style={{textDecoration:"none"}}>Food</Link>
 
             

@@ -5,9 +5,9 @@ const Descripe = () => {
     <div id="descripe">
         
             <div className='py-5'>
-                <div className='text-center' ><h4>Tourist Places To Tamil Nadu</h4></div>
+                <div className='text-center' ><h4 className='text-center'>Tourist Places To Tamil Nadu</h4></div>
 
-                <div className='text-center'><h4> Here Are The Top Places To Visit In Tamil Nadu In 2023</h4></div>
+                <div className='text-center'><h4 className='text-center'> Here Are The Top Places To Visit In Tamil Nadu In 2023</h4></div>
             </div>
 
             <div id="dec-d">
