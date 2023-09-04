@@ -36,3 +36,14 @@ Link{
 .container h5{
     margin-top: 60px;
 }
+
+#hello{
+    background-color: rgb(219, 209, 209);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
